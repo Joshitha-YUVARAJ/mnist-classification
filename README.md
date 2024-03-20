@@ -10,6 +10,9 @@ Digit classification and to verify the response for scanned handwritten images.
 
 The MNIST dataset is a collection of handwritten digits. The task is to classify a given image of a handwritten digit into one of 10 classes representing integer values from 0 to 9, inclusively. The dataset has a collection of 60,000 handwrittend digits of size 28 X 28. Here we build a convolutional neural network model that is able to classify to it's appropriate numerical value.
 
+![Screenshot 2024-03-20 132839](https://github.com/Joshitha-YUVARAJ/mnist-classification/assets/145742770/a860b89e-8efd-4552-9480-785f22ff9cf0)
+
+
 ## Neural Network Model
 
 ![Screenshot 2024-03-18 100959](https://github.com/Joshitha-YUVARAJ/mnist-classification/assets/145742770/9d17fc08-9fd9-49ca-9bf6-c196631a7a90)
@@ -121,25 +124,28 @@ print(x_single_prediction)
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
+![Screenshot 2024-03-20 134859](https://github.com/Joshitha-YUVARAJ/mnist-classification/assets/145742770/f587a37a-255b-4162-9f70-d20bc178e327)
 
-![Screenshot 2024-03-18 102636](https://github.com/Joshitha-YUVARAJ/mnist-classification/assets/145742770/a31a3bd0-706f-4b3b-a8ec-e6b8bc774686)
-![Screenshot 2024-03-18 102653](https://github.com/Joshitha-YUVARAJ/mnist-classification/assets/145742770/fb15e353-a604-4814-804e-719bd99993ef)
+
+![Screenshot 2024-03-20 134910](https://github.com/Joshitha-YUVARAJ/mnist-classification/assets/145742770/152f3a99-adf0-453a-b02f-613f0f41bc44)
 
 
 
 ### Classification Report
 
-![Screenshot 2024-03-18 102717](https://github.com/Joshitha-YUVARAJ/mnist-classification/assets/145742770/abc17a7d-6b52-4523-9d22-b770696955a0)
+![Screenshot 2024-03-20 134838](https://github.com/Joshitha-YUVARAJ/mnist-classification/assets/145742770/237433ab-4fe8-4faf-be34-1318b00a7a37)
+
 
 
 ### Confusion Matrix
 
-![Screenshot 2024-03-18 102704](https://github.com/Joshitha-YUVARAJ/mnist-classification/assets/145742770/35087462-c1fc-4851-9239-0add15478791)
+![Screenshot 2024-03-20 134849](https://github.com/Joshitha-YUVARAJ/mnist-classification/assets/145742770/a66f6090-16c4-4fa3-9cb9-abe31920d267)
 
 
 ### New Sample Data Prediction
 
-.![Screenshot 2024-03-18 102738](https://github.com/Joshitha-YUVARAJ/mnist-classification/assets/145742770/7cf6c518-0c5e-422f-8287-40f016ade082)
+![Screenshot 2024-03-20 134822](https://github.com/Joshitha-YUVARAJ/mnist-classification/assets/145742770/ffbcc053-2ed5-40f4-94e0-a03c9a703a7e)
+
 
 
 ## RESULT
